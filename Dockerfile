@@ -30,6 +30,7 @@ RUN apk add --no-cache \
         tzdata \
         ffmpeg \
         vlc \
+        curl \
     && update-ca-certificates
 
 WORKDIR /xteve
